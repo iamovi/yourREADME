@@ -16,7 +16,11 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 90%;
 }
-
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 70%;
+  }
+}
 form {
   display: flex;
   flex-direction: column;
