@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simpleREADME.md</title>
+ 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+     <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Generator</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./editor/edit.html">Editor</a>
+  </li>
+  
+  </li>
+</ul>
+<br>
+    <h2>simpleREADME.md</h2>
+    <hr>
+    <form id="readmeForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" rows="4" required></textarea>
+      
+      <label for="imageLink">Image Preview:</label>
+      <input type="text" id="imageLink" placeholder="Add a link to an image (optional)">
+
+      <label for="installation">Installation:</label>
+      <textarea id="installation" rows="4" placeholder="Add installation instructions"></textarea>
+
+      <label for="usage">Usage:</label>
+      <textarea id="usage" rows="4" placeholder="Provide usage examples"></textarea>
+
+      <label for="contributing">Contributing:</label>
+      <textarea id="contributing" rows="4" placeholder="How can others contribute?"></textarea>
+
+      <label for="testing">Testing:</label>
+      <textarea id="testing" rows="4" placeholder="Include information about testing procedures"></textarea>
+
+      <label for="acknowledgments">Acknowledgments:</label>
+      <textarea id="acknowledgments" rows="4" placeholder="Give credit to contributors or resources"></textarea>
+
+      <label for="license">License:</label>
+      <input type="text" id="license" placeholder="Specify the project's license">
+
+      
+
+      <label for="tableOfContents">Table of Contents:</label>
+      <textarea id="tableOfContents" rows="4" placeholder="List sections with links for easy navigation"></textarea>
+
+      <button type="button" onclick="generateReadme()">Generate README</button>
+<button type="button" onclick="resetForm()" class="reset">Reset Form</button>
+
+    </form>
+<div id="output-container">
+      <div id="output"></div>
+      <button id="copyBtn" onclick="copyToClipboard()">
+  <i class="bi bi-clipboard"></i>
+</button>
+
+<button id="downloadBtn" onclick="downloadReadme()">
+  <i class="bi bi-file-earmark-arrow-down-fill"></i>
+</button>
+    </div>
+    
+    <footer>
+      <h5>Created by Maruf OVi.</h3>
+      <h6>Open Source ❤️ MIT Licenced</h4>
+      <p>Source Code > <a href="https://github.com/iamovi/yourREADME" class="code" target="_blank"><i class="bi bi-github"></i></a></p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
