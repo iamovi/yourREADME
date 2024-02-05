@@ -4,14 +4,17 @@ Visit to use_ [https://iamovi.github.io/yourREADME/](https://iamovi.github.io/yo
 
 ### Preview Pics
 
-<img src="https://iamovi.github.io/yourREADME/previews/i.jpg" alt="Image 1" width="200"/>
-<img src="https://iamovi.github.io/yourREADME/previews/ii.jpg" alt="Image 2" width="200"/>
+<img src="previews/i.jpg" alt="Image 1" width="250"/>
 
-<img src="https://iamovi.github.io/yourREADME/previews/iii.jpg" alt="Image 3" width="200"/>
+<img src="previews/ii.jpg" alt="Image 2" width="250"/>
 
-<img src="https://iamovi.github.io/yourREADME/previews/iv.jpg" alt="Image 4" width="200"/>
+<img src="previews/iii.jpg" alt="Image 3" width="250"/>
 
-<img src="https://iamovi.github.io/yourREADME/previews/v.jpg" alt="Image 5" width="400"/>
+<img src="previews/iv.jpg" alt="Image 4" width="250"/>
+
+<img src="previews/v.jpg" alt="Image 5" width="250"/>
+
+---
 
 ### What you will get here
 - Fill-up input box step by step and click 'Generate README' and you will get a well customized README.md
